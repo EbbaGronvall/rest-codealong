@@ -39,6 +39,10 @@ ALLOWED_HOSTS = [
     '8000-ebbagronval-restcodealo-oa204j8qt26.ws.codeinstitute-ide.net'
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://8000-ebbagronval-restcodealo-oa204j8qt26.ws.codeinstitute-ide.net'
+]
+
 
 # Application definition
 
